@@ -7,12 +7,12 @@
   }
   .nav-tabs > li > a {
     border: none; color: #666;
-  }
+   }
   .nav-tabs > li.active > a, 
   .nav-tabs > li > a:hover { 
    border: none; color:deepskyblue  !important; 
    background: transparent;
-  }
+ }
   .nav-tabs > li > a::after { 
     content: ""; 
     background:deepskyblue ; 
@@ -73,6 +73,7 @@
     box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
     padding: 0px;
     margin: 0px 0px 20px;
+    border-radius: 9px;
   }
   .event-list > li > time {
     display: inline-block;
@@ -260,10 +261,10 @@
     font-size: 16px;
   }
   h5{
-    font-size: 20px;
+    font-size: 17px;
+    margin-left: -20px;
     margin-top: 568px;
     padding: 58px;
-        margin-left: 114px;
   }
   #form{
     color:indigo;
@@ -315,6 +316,7 @@
 #tab1{
   height: 80px;
   margin-top: 22px;
+  border-radius: 8px;
 }
 #conf{
     margin-top: 22px;
@@ -363,6 +365,7 @@
   background-color:#a9a9a92e;
   width: 753px;
   height: 770px;
+  margin-left: 59px;
   }
   #bgc1{
   background-color:#a9a9a92e;
@@ -432,4 +435,43 @@
 #myProgress {
   width: 50%;
   background-color: #ddd;
+}
+.hamb{
+  margin-top: 15px;
+}
+.head{
+  margin-top: 15px;
+  margin-left: 15px;
+  font-family: sans-serif;
+    font-weight: bold;
+}
+.container-fluid{
+      padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0px;
+    margin-bottom: 2px;
+}
+#img-cnt{
+  inline-size:70px;
+   margin-top:   15px;
+    margin-left: 500px;
+}
+.bell{
+      margin-right: 40px;
+    margin-top: 15px;
+}
+.out{
+      margin-top: 14px;
+    margin-right: 40px;
+}
+.navbar-default {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    margin-top: -61px;
+}
+#feeds{
+  margin-left: 132px;
+  font-size: 16px;
 }
