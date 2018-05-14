@@ -1,5 +1,4 @@
 $(document).ready(function(){
-
 	$("#show").hide();
 	$("#shows").hide();
 	$("#delta").show();
